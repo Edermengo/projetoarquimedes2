@@ -1,0 +1,6 @@
+code,description,unit,price,source,reference_date
+01.01.001,Escavação manual de valas,m³,89.50,SINAPI,2025-01-01
+01.01.002,Reaterro manual de valas,m³,52.30,SINAPI,2025-01-01
+01.02.001,Concreto fck=25MPa,m³,450.75,SINAPI,2025-01-01
+01.02.002,Forma de madeira,m²,125.80,SINAPI,2025-01-01
+01.03.001,Aço CA-50,kg,12.45,SINAPI,2025-01-01
