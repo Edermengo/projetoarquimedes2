@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 import { Typography, Grid, Paper, Button, List, ListItem, ListItemText, CircularProgress } from '@mui/material';
-import { Add, FolderOpen } from '@mui/icons-material';
+import { Add } from '@mui/icons-material';
 import { useNavigate } from 'react-router-dom';
 import { supabase } from '../lib/supabase';
 

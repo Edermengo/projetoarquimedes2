@@ -7,6 +7,7 @@ import Dashboard from './pages/Dashboard';
 import BudgetEditor from './pages/BudgetEditor';
 import PriceDatabase from './pages/PriceDatabase';
 import Reports from './pages/Reports';
+import SoccerManager from './pages/SoccerManager';
 import Auth from './components/Auth';
 import { useAuthStore } from './store/auth';
 
@@ -83,6 +84,16 @@ function App() {
               <PrivateRoute>
                 <Layout>
                   <Reports />
+                </Layout>
+              </PrivateRoute>
+            }
+          />
+          <Route
+            path="/soccer-manager"
+            element={
+              <PrivateRoute>
+                <Layout>
+                  <SoccerManager />
                 </Layout>
               </PrivateRoute>
             }
