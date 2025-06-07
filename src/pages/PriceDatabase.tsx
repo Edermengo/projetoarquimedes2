@@ -88,7 +88,6 @@ export default function PriceDatabase() {
       reader.onload = async (e) => {
         const text = e.target?.result as string;
         const lines = text.split('\n');
-        const headers = lines[0].split(',');
 
         const items = lines.slice(1).map((line) => {
           const values = line.split(',');

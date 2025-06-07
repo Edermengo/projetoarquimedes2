@@ -1,5 +1,5 @@
 import { Box, AppBar, Toolbar, Typography, Drawer, List, ListItem, ListItemIcon, ListItemText, Button } from '@mui/material';
-import { Dashboard, Description, AttachMoney, Assessment, Logout } from '@mui/icons-material';
+import { Dashboard, Description, AttachMoney, Assessment, Logout, SportsSoccer } from '@mui/icons-material';
 import { useNavigate } from 'react-router-dom';
 import { useAuthStore } from '../store/auth';
 
@@ -18,6 +18,7 @@ export default function Layout({ children }: LayoutProps) {
     { text: 'Editor de Orçamento', icon: <Description />, path: '/budget-editor' },
     { text: 'Banco de Preços', icon: <AttachMoney />, path: '/price-database' },
     { text: 'Relatórios', icon: <Assessment />, path: '/reports' },
+    { text: 'Soccer Manager', icon: <SportsSoccer />, path: '/soccer-manager' },
   ];
 
   const handleSignOut = async () => {
